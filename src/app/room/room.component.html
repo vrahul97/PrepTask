@@ -1,0 +1,15 @@
+<input mdinput="" class="md-width" placeholder="Enter the Room name" class="md-input" [(ngModel)]="roomName">
+<br>
+<button md-button color="blue" (click)="onCreateRoom()">Create Room</button>
+<br> <br>
+
+<input mdinput="" class="md-width" placeholder="Enter the room Id" class="md-input" [(ngModel)]="roomId"> <br> <br>
+<input mdinput="" class="md-width" placeholder="Enter the Member name" class="md-input" [(ngModel)]="memberName"> <br> <br>
+<br>
+<button md-button color="blue" (click)="addPeopleToRoom()">Add Member</button> <br> <br>
+
+<input mdinput="" class="md-width" placeholder="Enter the room Id" class="md-input" [(ngModel)]="roomId"> <br> <br>
+<input mdinput="" class="md-width" placeholder="Enter the Message" class="md-input" [(ngModel)]="textMessage"> <br> <br>
+<br>
+<button md-button color="blue" (click)="sendmsgToRoom()">Send Message</button> <br> <br>
+<button type="button" md-button color="red" (click)="onLogout()" >Logout</button>
